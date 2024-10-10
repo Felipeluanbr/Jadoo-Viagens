@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    /*criar um tamnho de tela*/
+    margin: 0 auto;
+    /*centraliza tudo ao meio*/
+
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+/*estilo do header*/
+
+header {
+    width: 100%;
+    /*ocupar toda a tela*/
+    padding: 40px 0;
+}
+
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu-logo img {
+    max-width: 200px;
+}
+
+header .menu-desktop nav ul {
+    list-style-type: none;
+
+}
+
+header .menu-desktop nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+
+}
+
+header .menu-desktop nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .btn-cadastrar button {
+    width: 140px;
+    /*largura*/
+    height: 50px;
+    /*altura*/
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    border-radius: 5px;
+
+}
+
+.interface-banner {
+    display: flex;
+    align-items: center;
+}
+
+.interface-banner-texto h2 {
+    color: #DF6951;
+
+}
+
+.interface-banner-img img {
+    max-width: 670px;
+}
+
+.interface-banner-texto h1 {
+    font-family: "Volkhov", serif;
+    color: #181E4B;
+    font-size: 54px;
+    font-style: bold;
+    margin-top: 24px;
+}
+
+.interface-banner-texto p {
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.interface-banner-texto-btn button {
+    font-size: 18px;
+    width: 170px;
+    height: 60px;
+    background-color: #f1a501;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-top: 34px;
+}
+
+body .decore-image img {
+    background-position: right top;
+    background-image: 'public/image/Decore.svg';
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.categoria {
+    margin-top: 97px;
+}
+
+.categoria-texto {
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+.categoria-texto h3 {
+    font-size: 18px;
+    font-style: normal;
+}
+
+.categoria-texto h1 {
+    font-size: 50px;
+    font-family: "Volkhov", serif;
+    font-style: bold;
+    margin-top: 10px;
+}
+
+.categoria-card-todos {
+    max-width: 100%;
+    /* Largura máxima para responsividade */
+    margin-top: 66px;
+    border-radius: 36px;
+    background-color: #fff;
+    display: flex;
+    /* Ativa o Flexbox */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente   */
+    gap: 20px;
+    /* Espaçamento entre os cards */
+    text-align: center;
+}
+
+.categoria-card-todos h1 {
+    font-size: auto;
+}
+
+.categoria-card-todos p {
+    font-size: 16px;
+}
+
+.categoria-card-todos .card {
+    margin-top: 66px;
+    width: 267px;
+    height: 314px;
+    border-radius: 36px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: px solid;
+    text-align: center;
+}
+
+.mais-vendidos-texto {
+    margin-top: 123px;
+    text-align: center;
+
+}
+
+.mais-vendidos-texto h1 {
+    font-size: 50px;
+    font-family: "Volkhov", serif;
+    font-style: bold;
+    margin-top: 10px;
+}
+
+.mais-vendidos-texto h3 {
+    font-size: 18px;
+    font-style: normal;
+}
